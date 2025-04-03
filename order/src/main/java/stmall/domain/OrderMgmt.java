@@ -10,7 +10,7 @@ import lombok.Data;
 import stmall.OrderApplication;
 import stmall.domain.OrderModified;
 import stmall.domain.OrderPlaced;
-
+ 
 @Entity
 @Table(name = "OrderMgmt_table")
 @Data
