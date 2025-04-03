@@ -10,7 +10,7 @@ import lombok.Data;
 import stmall.DeliveryApplication;
 import stmall.domain.DeliveryModified;
 import stmall.domain.DeliveryStarted;
-
+ 
 @Entity
 @Table(name = "Delivery_table")
 @Data
