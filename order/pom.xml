@@ -114,6 +114,16 @@
 	<build>
 		<plugins>
 			<plugin>
+				    <groupId>org.apache.maven.plugins</groupId>
+				    <artifactId>maven-compiler-plugin</artifactId>
+				    <version>3.11.0</version> <!-- 최소 3.10 이상 권장 -->
+				    <configuration>
+				        <source>17</source> <!-- JDK 버전에 맞게 -->
+				        <target>17</target>
+				    </configuration>
+			</plugin>
+
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
